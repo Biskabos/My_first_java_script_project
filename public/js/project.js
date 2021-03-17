@@ -66,7 +66,7 @@ const temp = document.querySelectorAll('.temp-p');
 const temps = document.querySelectorAll('.temp');
 const weathers = document.querySelectorAll('.weather');
 
-const api = 'http://api.openweathermap.org/data/2.5/forecast?';
+const api = 'https://api.openweathermap.org/data/2.5/forecast?';
 let apiArr = [
     'id=1504826',
     'appid=4b085ecf3e1036bccb0d57d80886d045',
