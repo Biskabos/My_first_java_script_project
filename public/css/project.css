@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+     background-image: url(../images/backgrounds/none.jpg); 
+    background-color: gray;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+
+.p-city {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 3em;
+}
+
+.languages {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.lang-block {
+    display: inline-block;
+}
+
+.lang {
+    width: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    filter: alpha(Opacity=70);
+    opacity: 0.70;
+}
+
+.active {
+    filter: alpha(Opacity=100);
+    opacity: 1;
+}
+
+.btn-city, .btn-go {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btn-city:hover, .btn-go:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.blocks {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.weather-block {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.hide {
+    display: none;
+}
+
+.temp {
+    font-size: 50px;
+}
+
+.weather {
+    font-size: 30px;
+}
+
+.city-enter, .lang-enter {
+    font-size: 35px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}

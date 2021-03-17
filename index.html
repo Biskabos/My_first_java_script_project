@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Мой СSS -->
+    <link rel="stylesheet" href="public/css/project.css">
+    <!-- Шрифты Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <title>Biskabos-weather.ru</title>
+</head>
+
+<body>
+    <h1>Biskabos-weather.ru</h1>
+    <div class="languages">
+        <h3 class="lang-enter">Пожалуйста выберите язык!</h3>
+        <div class="lang-block">
+            <img class="lang" data="ua" src="public/images/flags/ua.png" alt="">
+            <p>Український</p>
+        </div>
+        <div class="lang-block">
+            <img class="lang active" data="ru" src="public/images/flags/ru.png" alt="">
+            <p>Русский</p>
+        </div>
+        <div class="lang-block">
+            <img class="lang" data="en" src="public/images/flags/en.png" alt="">
+            <p>English</p>
+        </div>
+        <button class="btn-go">Продолжить</button>
+    </div>
+    <div class="btns hide">
+        <h3 class="city-enter">Пожалуйста выберите город!</h3>
+        <button class="btn-city" data="id=1504826">Каменск-Уральский</button>
+        <button class="btn-city" data="id=524894">Москва</button>
+        <button class="btn-city" data="id=703448">Киев</button>
+        <button class="btn-city" data="id=5128638">Нью-Йорк</button>
+    </div>
+    <div class="blocks hide">
+        <div class="weather-block">
+            <h2 class="time">Время 12:00</h2>
+            <p class="temp-p">Температура</p>
+            <p class="temp"></p>
+            <p class="weather"></p>
+        </div>
+        <div class="weather-block">
+            <h2 class="time">Время 15:00</h2>
+            <p class="temp-p">Температура</p>
+            <p class="temp"></p>
+            <p class="weather"></p>
+        </div>
+        <div class="weather-block">
+            <h2 class="time">Время 18:00</h2>
+            <p class="temp-p">Температура</p>
+            <p class="temp"></p>
+            <p class="weather"></p>
+        </div>
+        <div class="weather-block">
+            <h2 class="time">Время 21:00</h2>
+            <p class="temp-p">Температура</p>
+            <p class="temp"></p>
+            <p class="weather"></p>
+        </div>
+    </div>
+
+    <!-- Мой Js -->
+    <script src="public/js/project.js"></script>
+</body>
+
+</html>
